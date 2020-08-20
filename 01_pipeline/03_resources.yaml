@@ -9,7 +9,7 @@ spec:
   - name: url
     value: http://github.com/awl-demo/vote-api.git
   - name: revision
-    value: release-tech-preview-1
+    value: awl-demo
 ---
 apiVersion: tekton.dev/v1alpha1
 kind: PipelineResource
@@ -31,7 +31,7 @@ spec:
   - name: url
     value: http://github.com/awl-demo/vote-ui.git
   - name: revision
-    value: release-tech-preview-1
+    value: awl-demo
 ---
 apiVersion: tekton.dev/v1alpha1
 kind: PipelineResource
